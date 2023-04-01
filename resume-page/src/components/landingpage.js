@@ -9,38 +9,38 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src="https://media.licdn.com/dms/image/C4D03AQEg3Q797ld7EQ/profile-displayphoto-shrink_800_800/0/1590846307253?e=1685577600&v=beta&t=emeC1HwazgIVtQt-_5Z8E9GWO_FAKqKGZojE_8dRkPQ"
               alt="avatar"
               className="avatar-img"
               />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Full Stack Software Developer</h1>
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | .Net | Object Oriented | React | Android | Functional Programing | API | SQL</p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <a href="https://www.linkedin.com/in/shaina-munoz/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="false" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+          <a href="https://github.com/AvengerFreak" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github-square" aria-hidden="false" />
           </a>
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          <a href="https://www.freecodecamp.org/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-free-code-camp" aria-hidden="false" />
           </a>
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          <a href="https://www.youtube.com/@AudibleACX" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-youtube-square" aria-hidden="false" />
           </a>
 
         </div>
