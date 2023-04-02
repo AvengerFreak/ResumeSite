@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
+// TODO - max social icons clickable
 
 class Contact extends Component {
   render() {

@@ -4,6 +4,8 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
+// TODO - personalize skills section 
+
 class Resume extends Component {
   render() {
     return(

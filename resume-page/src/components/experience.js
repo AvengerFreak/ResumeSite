@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+// TODO - fix job timeline calculation
 const calculate_job_timeline = () => {
   const startDate = new Date('1/1/2020'); // new Date(this.props.startDate);
   const endDate = new Date(); // (this.props.ongoing == 'true') ? new Date() : new Date(this.props.endDate);
