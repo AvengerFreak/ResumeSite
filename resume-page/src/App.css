@@ -2,6 +2,10 @@
   background: #282828 !important; 
 }
 
+.about-me-container{
+  padding: 50px;
+}
+
 .landing-grid {
   background: #003153;  /* fallback for old browsers */
   background: rgb(0,0,0);
