@@ -4,8 +4,6 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
-// TODO - personalize skills section 
-
 class Resume extends Component {
   render() {
     return(
@@ -39,10 +37,11 @@ class Resume extends Component {
             <h5>Web</h5>
             <p>https://www.linkedin.com/in/shaina-munoz/</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <br></br>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             
-            <h2>Education</h2>
+            <h3>Education</h3>
             <Education
               startYear={2016}
               endYear={2021}
@@ -51,7 +50,7 @@ class Resume extends Component {
             />
 
             <hr style={{borderTop: '3px solid #e22947'}} />
-            <h2>Experience</h2>
+            <h3>Experience</h3>
             <Experience
               startDate='5/1/2018'
               endDate= '10/1/2018'
@@ -84,27 +83,109 @@ class Resume extends Component {
               jobName="General Motors Software Developer"
               jobDescription="Dev Ops and Java backend development"
             />
+          </Cell>
+        </Grid>
 
-            <hr style={{borderTop: '3px solid #e22947'}} />
-            <h2>Skills</h2>
-            <Skills
-              skill="javascript"
+        <div class="skills-container" style={{margin: '50px'}}>
+          
+          <h3>Skills:</h3>
+          <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+
+          <h4>Programming Languages</h4>
+          <Skills
+              skill="Java"
               progress={100}
             />
             <Skills
-              skill="HTML/CSS"
+              skill="C#"
               progress={80}
             />
             <Skills
-              skill="NodeJS"
+              skill="C"
               progress={50}
             />
             <Skills
-              skill="React"
+              skill="F#"
               progress={25}
             />
-          </Cell>
-        </Grid>
+
+          <h4>Scripting</h4>
+          
+          <Skills
+            skill="Python"
+            progress={100}
+          />
+          <Skills
+            skill="JavaScript"
+            progress={80}
+          />
+          <Skills
+            skill="VB Script"
+            progress={50}
+          />
+          <Skills
+            skill="Shell Script"
+            progress={25}
+          />
+
+          <h4>Frameworks</h4>
+          
+          <Skills
+            skill="NodeJS"
+            progress={100}
+          />
+          <Skills
+            skill=".NET"
+            progress={80}
+          />
+          <Skills
+            skill="Android"
+            progress={50}
+          />
+          <Skills
+            skill="Angular"
+            progress={25}
+          />
+
+          <h4>Libraries</h4>
+          
+          <Skills
+            skill="Numpy"
+            progress={100}
+          />
+          <Skills
+            skill="Bootstrap"
+            progress={80}
+          />
+          <Skills
+            skill="React"
+            progress={50}
+          />
+          <Skills
+            skill="Maven"
+            progress={25}
+          />
+
+      <h4>Tools</h4>
+          
+          <Skills
+            skill="InteliJ"
+            progress={100}
+          />
+          <Skills
+            skill="Git"
+            progress={80}
+          />
+          <Skills
+            skill="Azure"
+            progress={50}
+          />
+          <Skills
+            skill="SQL Developer"
+            progress={25}
+          />
+
+        </div>
       </div>
     )
   }
