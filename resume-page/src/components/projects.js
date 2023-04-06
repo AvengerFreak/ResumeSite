@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import ProjectCard from './projectcard';
 
 
 class Projects extends Component {
@@ -13,68 +14,115 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
-          {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+          {/* Java Project 1 */}
+          <ProjectCard
+            project_title ='Math Chat'
+            project_description= "A server/client chat that can recieve and send math formulas using LaTex formulas to generate a LaTex TextIcon"
+            project_img_path='https://www.userlike.com/api/proxy/resize/how-to-set-up-chat-macros/chat-macros-how.png?height=720'
+            project_url='https://github.com/AvengerFreak/LatexProject'
+          />
 
-          {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+          {/* Java Project 2 */}
+          <ProjectCard
+            project_title ='Java Project #2'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
 
-          {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+          {/* Java Project 3 */}
+          <ProjectCard
+            project_title ='Java Project #3'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
         </div>
-
-
       )
+
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is Angular</h1></div>
+        <div className="projects-grid">
+          {/* Python Project 1 */}
+          <ProjectCard
+            project_title ='Python Project #1'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+
+          {/* Python Project 2 */}
+          <ProjectCard
+            project_title ='Python Project #2'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+
+          {/* Python Project 3 */}
+          <ProjectCard
+            project_title ='Python Project #3'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+        </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is VueJS</h1></div>
+        <div className="projects-grid">
+          {/* C# Project 1 */}
+          <ProjectCard
+            project_title ='C# Project #1'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+
+          {/* C# Project 2 */}
+          <ProjectCard
+            project_title ='C# Project #2'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+
+          {/* C# Project 3 */}
+          <ProjectCard
+            project_title ='C# Project #3'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is MongoDB</h1></div>
+        <div className="projects-grid">
+          {/* JavaScript Project 1 */}
+          <ProjectCard
+            project_title ='JavaScript Project #1'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+
+          {/* JavaScript Project 2 */}
+          <ProjectCard
+            project_title ='JavaScript Project #2'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+
+          {/* JavaScript Project 3 */}
+          <ProjectCard
+            project_title ='JavaScript Project #3'
+            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            project_img_path=''
+            project_url='https://github.com/AvengerFreak'
+          />
+        </div>
       )
     }
 
@@ -86,10 +134,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Java</Tab>
+          <Tab>Python</Tab>
+          <Tab>C#</Tab>
+          <Tab>JavaScript</Tab>
         </Tabs>
 
 
