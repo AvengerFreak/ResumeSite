@@ -101,26 +101,26 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* JavaScript Project 1 */}
           <ProjectCard
-            project_title ='JavaScript Project #1'
-            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-            project_img_path=''
-            project_url='https://github.com/AvengerFreak'
+            project_title ='ChatBox'
+            project_description= "Simple react chat component that implements the OpenAI API in its backend service."
+            project_img_path='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQas_8WcYOxiLSASYgLlgS_4q9E__zpNfdm2-WLMBkxGIpXp1E0rhlaW8N3H1EckBnYO4I&usqp=CAU'
+            project_url='https://github.com/AvengerFreak/ChatGPTDemo/tree/master/chat-box'
           />
 
           {/* JavaScript Project 2 */}
           <ProjectCard
-            project_title ='JavaScript Project #2'
-            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-            project_img_path=''
-            project_url='https://github.com/AvengerFreak'
+            project_title ='Stop Watch'
+            project_description= "A simple vanilla javascript and sass stopwatch."
+            project_img_path='https://c.tadst.com/gfx/1200x630/fb-stopwatch2.png?1'
+            project_url='https://github.com/AvengerFreak/StopWatch'
           />
 
           {/* JavaScript Project 3 */}
           <ProjectCard
-            project_title ='JavaScript Project #3'
-            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-            project_img_path=''
-            project_url='https://github.com/AvengerFreak'
+            project_title ='JS Calculator'
+            project_description= "A simple vanilla javascript calculator."
+            project_img_path='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2o9jXOMPaBixWWWXKLo-YYEfjhSlt4ZTgyA&usqp=CAU'
+            project_url='https://github.com/AvengerFreak/Calculator'
           />
         </div>
       )
