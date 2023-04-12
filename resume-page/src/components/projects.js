@@ -73,26 +73,26 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* C# Project 1 */}
           <ProjectCard
-            project_title ='C# Project #1'
-            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-            project_img_path=''
-            project_url='https://github.com/AvengerFreak'
+            project_title ='VoteNow'
+            project_description= "ASP.NET online voting system."
+            project_img_path='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYf6Rvg6eo3hNCwAqSv-oGlkQNWOmfkDzcw&usqp=CAU'
+            project_url='https://github.com/AvengerFreak/VoteNow'
           />
 
           {/* C# Project 2 */}
           <ProjectCard
-            project_title ='C# Project #2'
-            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-            project_img_path=''
-            project_url='https://github.com/AvengerFreak'
+            project_title ='UnitConverter'
+            project_description= "Windows form application that performs temperature, mass and preasure unit conversions."
+            project_img_path='https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/84/88/05/8488052e-6765-92af-41ac-54a7a626bb52/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/1200x600bf.png'
+            project_url='https://github.com/AvengerFreak/UnitConverter'
           />
 
           {/* C# Project 3 */}
           <ProjectCard
-            project_title ='C# Project #3'
-            project_description= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-            project_img_path=''
-            project_url='https://github.com/AvengerFreak'
+            project_title ='UrlPinger'
+            project_description= "This program executes a network health check on a hardcoded url by executing a ping function."
+            project_img_path='https://i0.wp.com/www.samnews24.com/wp-content/uploads/2023/01/Samsung-Health-Monitor-Update.png?resize=896%2C525&ssl=1'
+            project_url='https://github.com/AvengerFreak/UrlPinger'
           />
         </div>
       )
